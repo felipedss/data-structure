@@ -14,6 +14,7 @@ public class OneWayTest {
                 {"pales", "pale", true},
                 {"pale", "bale", true},
                 {"pale", "bake", false},
+                {"apple", "aple", true},
         };
     }
 
