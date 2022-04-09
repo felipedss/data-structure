@@ -87,4 +87,5 @@ public class BasicLinkedList {
     public int getSize() {
         return size;
     }
+
 }
