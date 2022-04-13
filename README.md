@@ -12,3 +12,11 @@ Abaixo o desenho de uma double linked list:
 
 * Tempo constante para inserir e remover itens.
 * Ao contrário do array, para acessar um item em determinada posição, o tempo é linear.
+
+## Stack
+
+//...
+
+## Queue
+
+//...
