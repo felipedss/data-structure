@@ -1,7 +1,6 @@
 package leetcode;
 
 import leetcode.linkedlist.MergeTwoLists;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
