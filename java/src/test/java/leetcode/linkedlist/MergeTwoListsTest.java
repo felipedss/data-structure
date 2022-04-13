@@ -1,8 +1,9 @@
-package leetcode;
+package leetcode.linkedlist;
 
 import leetcode.linkedlist.MergeTwoLists;
 import org.testng.annotations.Test;
 
+import static leetcode.linkedlist.MergeTwoLists.mergeTwoLists;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertNull;
 
@@ -17,13 +18,13 @@ public class MergeTwoListsTest {
                                         new MergeTwoLists.ListNode(4,
                                                 new MergeTwoLists.ListNode(4))))));
 
-        MergeTwoLists.ListNode listNode = MergeTwoLists.mergeTwoLists(getFirstNode(), getSecondNode());
+        MergeTwoLists.ListNode listNode = mergeTwoLists(getFirstNode(), getSecondNode());
         assertEquals(result.val, listNode.val);
         assertEquals(result.next.val, listNode.next.val);
         assertEquals(result.next.next.val, listNode.next.next.val);
         assertEquals(result.next.next.next.val, listNode.next.next.next.val);
         assertEquals(result.next.next.next.next.val, listNode.next.next.next.next.val);
-        assertNull(MergeTwoLists.mergeTwoLists(null, null));
+        assertNull(mergeTwoLists(null, null));
     }
 
     private MergeTwoLists.ListNode getSecondNode() {
